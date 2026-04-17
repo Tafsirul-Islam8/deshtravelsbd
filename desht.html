@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Desh Travels: online bus ticketing website provides Dhaka to Rajshahi bus tickets in Bangladesh
+    </title>
+    <link
+      rel="shorcut icon"
+      href="dt5.png"
+    />
+    <link rel="stylesheet" href="desht.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="all">
+      <div class="header"><a href="#">ADMIN</a></div>
+      <img
+        id="logo"
+        src="dt6.png"
+        alt="Desh Travels"
+      />
+      <div class="q_mark">
+        <a>?</a> <span class="q-mark">How to buy Tickets?</span>
+      </div>
+      <div class="logolinks">
+        <p href="#">Call: 16460 Or Email:</p>
+        <!-- <br /> -->
+        <p href="#">support@bdtickets.com</p>
+      </div>
+      <div class="scroller-box">
+        <marquee behavior="scroll" direction="left" scrollamount="4">
+          <p class="scroller">
+            <span class="scroller-black">Routes: </span>
+            Dhaka->Rajshahi<span class="scroller-black">, </span
+            >Dhaka->Chapainawabganj<span class="scroller-black">, </span>
+            Dhaka->Kansat<span class="scroller-black">, </span
+            >Rajshahi->Dhaka<span class="scroller-black">, </span
+            >Chapainawabganj->Dhaka<span class="scroller-black">, </span
+            >Kansat->Dhaka<span class="scroller-black">, </span>Kansat->Dhaka(
+            By Pass )<span class="scroller-black">, </span>
+            Mohakhali->Chapainawabganj<span class="scroller-black">, </span
+            >Chapainawabganj->Mohakhali<span class="scroller-black">, </span
+            >Mohakhali->Kansat<span class="scroller-black">, </span
+            >Kansat->Mohakhali<span class="scroller-black">, </span
+            >Rajshahi->Mohakhali<span class="scroller-black">, </span
+            >Dhaka->Cox's Bazar<span class="scroller-black">, </span>Cox's
+            Bazar->Dhaka<span class="scroller-black">, </span
+            >Dhaka->Chittagong<span class="scroller-black">, </span
+            >Chittagong->Dhaka<span class="scroller-black">, </span
+            >Chapainawabganj->Chittagong<span class="scroller-black">, </span
+            >Chittagong->Cox's Bazar<span class="scroller-black">, </span
+            >Chittagong->Chapainawabganj<span class="scroller-black">, </span
+            >Chapainawabganj->Cox's Bazar<span class="scroller-black">, </span
+            >Cox's Bazar->Chapainawabganj<span class="scroller-black">, </span
+            >Cox's Bazar->Chittagong<span class="scroller-black">, </span
+            >Dhaka->Kolkata<span class="scroller-black">, </span
+            >Benapole->Dhaka<span class="scroller-black">, </span
+            >Petrapole->Kolkata<span class="scroller-black">, </span
+            >Rajshahi->Kolkata<span class="scroller-black">, </span
+            >Benapole->Rajshahi<span class="scroller-black">, </span
+            >Chapainawabganj->Kolkata<span class="scroller-black">, </span
+            >Benapole->Chapainawabganj<span class="scroller-black">, </span
+            >Mohakhali->Chittagong<span class="scroller-black">, </span
+            >Chittagong->Mohakhali<span class="scroller-black">, </span
+            >Dhaka->Bandarban<span class="scroller-black">, </span
+            >Bandarban->Dhaka<span class="scroller-black">, </span
+            >Dhaka->Benapole<span class="scroller-black">, </span
+            >Rajshahi->Chittagong<span class="scroller-black">, </span
+            >Dhaka->Khagrachari<span class="scroller-black">, </span
+            >Khagrachari->Dhaka
+          </p></marquee
+        >
+      </div>
+      <form>
+        <strong class="ticket">BUY TICKET</strong>
+        <p id="a">Leaving from: <span class="redstar">*</span></p>
+        <h6 id="b">Going to:<span class="redstar">*</span></h6>
+        <br />
+        <select id="x">
+          <option value="---">---</option>
+          <option value="---">BANDARBAN</option>
+          <option value="---">BENAPOLE</option>
+          <option value="---">CHAKARIA</option>
+          <option value="---">CHAPAINAWABGANJ</option>
+          <option value="---">CHITTAGONG</option>
+          <option value="---">COMILLA(CUMILLA)</option>
+          <option value="---">COX HOTEL</option>
+          <option value="">COX'S BAZAR</option>
+          <option value="">DALGAR RASTA</option>
+          <option value="">DASHURIA</option>
+          <option value="">DHAKA</option>
+          <option value="">FARIDPUR</option>
+          <option value="">FENI</option>
+          <option value="">GAZIPUR</option>
+          <option value="">GODAGARI</option>
+          <option value="">GOPALGANJ</option>
+          <option value="">JESSORE(JASHORE)</option>
+          <option value="">KANSAT</option>
+          <option value="">KARANIRHAT</option>
+          <option value="">KHAGRACHARI</option>
+          <option value="">KHAJURA</option>
+          <option value="">KHULNA</option>
+          <option value="">KOLKATA</option>
+          <option value="">KUSHTIA</option>
+          <option value="">LAKSMIPASHA</option>
+          <option value="">MAGURA</option>
+          <option value="">MOHAKHALI</option>
+          <option value="">MOKSEDPUR</option>
+          <option value="">NARAIL</option>
+          <option value="">NATORE</option>
+          <option value="">NAVARONE</option>
+          <option value="">PATIYA</option>
+          <option value="">PETRAPOLE</option>
+          <option value="">PUTHIA</option>
+          <option value="">RAHANPUR</option>
+          <option value="">RAJBARI</option>
+          <option value="">RAJSHAHI</option>
+          <option value="">SHIBGANJ</option>
+          <option value="">SHIMAKHALI</option>
+          <option value="">SIARJGANJ</option>
+          <option value="">SIARJGANJ ROAD</option>
+          <option value="">UTTARA</option>
+          <option value="">VANGA</option>
+        </select>
+        <select id="y">
+          <option value="---">---</option>
+          <option value="---">BANDARBAN</option>
+          <option value="---">BENAPOLE</option>
+          <option value="---">CHAKARIA</option>
+          <option value="---">CHAPAINAWABGANJ</option>
+          <option value="---">CHITTAGONG</option>
+          <option value="---">COMILLA(CUMILLA)</option>
+          <option value="---">COX HOTEL</option>
+          <option value="">COX'S BAZAR</option>
+          <option value="">DALGAR RASTA</option>
+          <option value="">DASHURIA</option>
+          <option value="">DHAKA</option>
+          <option value="">FARIDPUR</option>
+          <option value="">FENI</option>
+          <option value="">GAZIPUR</option>
+          <option value="">GODAGARI</option>
+          <option value="">GOPALGANJ</option>
+          <option value="">JESSORE(JASHORE)</option>
+          <option value="">KANSAT</option>
+          <option value="">KARANIRHAT</option>
+          <option value="">KHAGRACHARI</option>
+          <option value="">KHAJURA</option>
+          <option value="">KHULNA</option>
+          <option value="">KOLKATA</option>
+          <option value="">KUSHTIA</option>
+          <option value="">LAKSMIPASHA</option>
+          <option value="">MAGURA</option>
+          <option value="">MOHAKHALI</option>
+          <option value="">MOKSEDPUR</option>
+          <option value="">NARAIL</option>
+          <option value="">NATORE</option>
+          <option value="">NAVARONE</option>
+          <option value="">PATIYA</option>
+          <option value="">PETRAPOLE</option>
+          <option value="">PUTHIA</option>
+          <option value="">RAHANPUR</option>
+          <option value="">RAJBARI</option>
+          <option value="">RAJSHAHI</option>
+          <option value="">SHIBGANJ</option>
+          <option value="">SHIMAKHALI</option>
+          <option value="">SIARJGANJ</option>
+          <option value="">SIARJGANJ ROAD</option>
+          <option value="">UTTARA</option>
+          <option value="">VANGA</option>
+        </select>
+        <br />
+        <h6 id="c">Departing On:<span class="redstar">*</span></h6>
+        <br />
+        <!-- <select id="z">
+          <option value="---">15/10/2025</option>
+        </select> -->
+        <input
+          type="text"
+          name="searchmenu_departingon"
+          id="z"
+          value="17/10/2025"
+          maxlength="255"
+          class="input-text hasDatepicker"
+          readonly="readonly"
+        /><img
+          src="https://static-busbd.bdtickets.com/skins/busbdbrown/default/images/calendar.gif"
+          alt="datepicker"
+          id="calendar"
+        />
+        <button type="submit" class="search">Search</button>
+      </form>
+
+      <!-- Image Slider -->
+
+      <!-- <div class="homepageslider detailsbox right whitesmoke_brown col1">
+        <div class="slider">
+          <div class="bx-wrapper" style="width: 512px; position: relative">
+            <div
+              class="bx-window"
+              style="position: relative; overflow: hidden; width: 512px"
+            >
+              <ul
+                class="bxslider"
+                style="width: 999999px; position: relative; left: -1536px"
+              >
+                <li style="width: 512px; float: left; list-style: none"></li>
+                <li
+                  class="pager"
+                  style="width: 512px; float: left; list-style: none"
+                >
+                  <a target="_blank" href>
+                    <img
+                      src="https://static-busbd.bdtickets.com/busbdmedia/rsz_17310956_1111499345835.1499835853"
+                      alt="dtbdimg_1"
+                      class="img_1"
+                  /></a>
+                </li>
+                <li
+                  class="pager"
+                  style="width: 512px; float: left; list-style: none"
+                >
+                  <a target="_blank" href>
+                    <img
+                      src="https://static-busbd.bdtickets.com/busbdmedia/10101.1499864806"
+                      alt="dtbdimg_2"
+                      class="img_2"
+                  /></a>
+                </li>
+                <li
+                  class="pager"
+                  style="width: 512px; float: left; list-style: none"
+                >
+                  <a target="_blank" href>
+                    <img
+                      src="https://static-busbd.bdtickets.com/busbdmedia/WhatsApp%20Image%202020-07-14%20at%209.47.08%20PM(1).1594742702"
+                      alt="dtbdimg_3"
+                      class="img_3"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div class="slider">
+      <div class="slides">
+        <img class="img-1" src="BD SUB.png" alt="img_1" />
+        <img class="img-2" src="BDHO Converter.png" alt="img_2" />
+        <img class="img-3" src="Coding Indicator Sign.png" alt="img_3" />
+      </div>
+    </div> -->
+    <div class="main-container">
+      <div class="sliderWrapper">
+        <div class="sliderTrack" id="sliderTrack">
+          <div class="slideItem">
+            <!-- <img < src="https://static-busbd.bdtickets.com/busbdmedia/rsz_17310956_1111499345835.1499835853"alt="image-1" onerror="this.src='https://via.placeholder.com/800x400?text=Favicon+IEF'"> -->
+            <img src="dt1.png"></img>
+          </div>
+          <div class="slideItem">
+            <img src="dt2.png" alt="image-2" onerror="this.src='https://via.placeholder.com/800x400?text=BMI+Calculator'">
+          </div>
+          <div class="slideItem">
+            <img src="dt3.png" alt="image-3">
+          </div>
+          <div class="slideItem">
+            <img src="https://static-busbd.bdtickets.com/busbdmedia/rsz_17310956_1111499345835.1499835853" onerror="this.src='https://via.placeholder.com/800x400?text=BDHO+Converter'" alt="image-1">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="desht.js"></script>
+</html>
